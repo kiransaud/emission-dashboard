@@ -1,0 +1,119 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    z-index: -2;
+  }
+  
+.card {
+    margin: 20px;
+    border: 2px solid #ededed;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+.card-img {
+  width: 13rem;
+  margin-bottom: 1rem;
+}
+  
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.rating-star {
+  color: #d5ab55;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-container {
+  margin-left: 20rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  z-index: -2;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0px;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  --tw-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.table-header {
+    background-color: #fefae0; 
+    border-bottom-width: 0.125rem; 
+    border-color: #fefae0;
+}
+
+.table-header-row {
+    background-color: #283618;
+    color: #fefae0;
+    border-bottom-width: 0.125rem; 
+    border-color: #fefae0;
+}
+
+.key-heading {
+  width: 4rem; 
+  padding: 1rem;
+  align-content: start; 
+  font-size: 0.875rem; 
+  font-weight: 600; 
+  letter-spacing: 0.025em; 
+  text-align: left;
+}
+
+tbody {
+  border-color: #edf2f7;
+}
+
+tr {
+    background-color: #ffffff;
+}
+
+tr:nth-child(2n + 2) {
+  background-color: #84d2ff;
+}
+
+td {
+  padding: 0.75rem; 
+  font-size: 0.875rem; 
+  color: #4a5568; 
+  white-space: break-spaces;
+  align-content: start;
+}
+
+table td {
+  border-left: 1px solid #edf2f7;
+  border-right: 1px solid #edf2f7;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}

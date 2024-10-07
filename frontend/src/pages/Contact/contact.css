@@ -1,0 +1,229 @@
+/* contact.css */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9fafb;
+    color: #333;
+    padding: 2rem;
+  }
+  
+  .contact-container.dark {
+    background-color: #444;
+    color: #e2e8f0;
+  }
+
+  .about-us {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 0 0 20%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-container.dark .team-member {
+    background-color: #2f3134;
+    color: #e2e8f0;
+}
+
+
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 1rem;
+  }
+  
+  .contact-container.dark .contact-form {
+    background-color: #2f3134;
+    color: #e2e8f0;
+  }
+  
+  .contact-profile {
+    flex: 0 0 300px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-container.dark .contact-profile {
+    background-color: #2f3134;
+    color: #e2e8f0;
+  }
+
+  .team-member .profile-picture{
+    margin-top: 18%;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .contact-profile .profile-picture {
+    margin-top: 18%;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-profile h2,
+  .contact-profile h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .company-info h3{
+    margin-bottom: 10px;
+  }
+
+  .linkedin{
+    height: 60px;
+    width: 60px;
+  }
+  
+  .contact-profile p {
+    margin: 0.5rem 0;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-container.dark .form-group label {
+    color: #e2e8f0;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .contact-container.dark .form-group input,
+  .contact-container.dark .form-group textarea {
+    background-color: #7a7878;
+    color: #e2e8f0;
+    border-color: #dbdada;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #d5ab1d;
+    outline: none;
+  }
+  
+  .contact-container.dark .form-group input:focus,
+  .contact-container.dark .form-group textarea:focus {
+    border-color: #665d5d;
+  }
+  
+  .form-submit {
+    text-align: right;
+  }
+  
+  .submit-button {
+    background-color: #84d2ff ;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1d2226;
+  }
+  
+  .contact-container.dark .submit-button {
+    background-color: #1d2226;
+  }
+  
+  .contact-container.dark .submit-button:hover {
+    background-color: #84d2ff;
+  }
+
+  .company-info img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .company-info {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  
+  .contact-container.dark .company-info {
+    background-color: #2f3134;
+    color: #e2e8f0;
+  }
+  
+  .company-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .company-info p {
+    margin: 0.5rem 0;
+  }
+

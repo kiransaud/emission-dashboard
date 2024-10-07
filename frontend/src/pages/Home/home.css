@@ -1,0 +1,93 @@
+/* Common Styles */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Adjusted to fit additional content */
+  min-height: 100vh;
+  padding: 20px; /* Added padding for better spacing */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../../assets/black-swan-background.jpg');
+  background-repeat: inherit;
+  color: #edf1f4; /* Ensures text is readable on the dark background */
+}
+
+.home.dark {
+  background: #1d2226;
+}
+
+.platform-info,
+.additional-info {
+  text-align: center;
+  max-width: 800px; /* Added max-width for better centering */
+  margin: 0 auto; /* Center the content */
+}
+
+.platform-info {
+  margin-top: 40px; /* Added margin for spacing */
+}
+
+.platform-info h1 {
+  margin-top: 40px;
+  font-size: 36px; /* Adjusted font size */
+  margin-bottom: 20px;
+}
+
+.platform-info p {
+  font-size: 18px;
+  line-height: 1.6; /* Improved readability with line-height */
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  margin-top: 30px; /* Adjusted margin for consistency */
+  margin-bottom: 10px;
+}
+
+.search-bar input {
+  padding: 17px; /* Increase padding for larger size */
+  width: 700px;  /* Increase width for larger size */
+  border-radius: 25px; /* Round edges */
+  border: none;
+  font-size: 20px; /* Increase font size */
+}
+
+.search-bar button {
+  padding: 17px 25px; /* Increase padding for larger size */
+  margin-left: 10px;
+  border-radius: 25px; /* Round edges */
+  background-color: #84d2ff;
+  border: none;
+  font-size: 20px; /* Increase font size */
+  cursor: pointer;
+}
+
+.additional-info {
+  margin-top: 40px; /* Added margin for spacing */
+}
+
+.additional-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.additional-info p,
+.additional-info ul {
+  font-size: 18px;
+  line-height: 1.6; /* Improved readability with line-height */
+  margin-bottom: 15px;
+}
+
+.additional-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.reliable-sources {
+  margin-top: 40px;
+  text-align: center;
+  color: #edf1f4;
+}
+
+.reliable-sources.dark {
+  color: #edf1f4;
+}

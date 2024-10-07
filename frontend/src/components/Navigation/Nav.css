@@ -1,0 +1,115 @@
+/* General styling for navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edf1f4;
+  padding: 20px;
+  z-index: 999;
+  box-shadow: 0 1px 0 #858282;
+  padding: 1rem;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+}
+
+.navbar-logo img {
+  height: 50px;
+  cursor: pointer;
+  margin-left: 20px
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.navbar-auth {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.auth-button {
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #84d2ff;
+  color: #1d2226;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #48bcff;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #edf1f4;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #84d2ff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Dark mode styling */
+body.dark-mode {
+  background-color: #1d2226;
+  color: #edf1f4;
+}
+
+body.dark-mode .btns {
+  color: #edf1f4;
+}
+
+body.dark-mode .navbar {
+  background-color: #1d2226;
+}
+
+body.dark-mode .auth-button:hover {
+  background-color: #84d2ff;
+}
+body.dark-mode .navbar-links li a {
+  color: #edf1f4;
+}

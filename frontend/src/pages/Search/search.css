@@ -1,0 +1,45 @@
+#feather {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 150px;
+    animation: feather 5s ease-in-out 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transform-origin: 0% 50%;
+  }
+  
+  @keyframes feather {
+    0% {
+      transform: rotate(50deg) translate(0px, 50px);
+    }
+    25% {
+      transform: rotate(90deg) translate(50px, 100px);
+    }
+    50% {
+      transform: rotate(50deg) translate(100px, 50px);
+    }
+    75% {
+      transform: rotate(90deg) translate(150px, 100px);
+    }
+    100% {
+      transform: rotate(70deg) translate(200px, 75px);
+    }
+  }
+
+  .preloader {
+    align-items: center;
+    background: rgb(23, 22, 22);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.3s linear;
+    width: 100%;
+    z-index: 9999;
+  }

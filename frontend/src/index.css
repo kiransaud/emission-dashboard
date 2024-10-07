@@ -1,0 +1,47 @@
+* {
+  margin-right: 13px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar-links li a {
+  padding: 20px;
+  margin: 0 20px;
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+  border-radius: 5px;
+}
+
+.navbar-links li a:hover {
+  color: #edf1f4;
+  background-color: rgb(97, 97, 97);;
+}
+
+a {
+  margin-right: 13px;
+  text-decoration: none;
+  color: #1d2226;
+}
+
+li {
+  list-style: none;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 13px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
+
+/* Dark Mode Styles */
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}

@@ -1,0 +1,46 @@
+.sidebar {
+    min-width: 11%;
+    position: fixed;
+    height: 80%;
+    border-right: 1px solid  #e5e5e5;
+    display: flex;
+    z-index: 4;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar select {
+    width: 120px;
+	--background-color: #edf1f4;
+	--border-color: gray;
+	--border-color-hover: black;
+	display: block;
+	min-inline-size: 0;
+	max-inline-size: 100%;
+	padding-block: 0.625rem;
+	padding-inline-start: 0.875rem;
+	padding-inline-end: 2.1875rem;
+	margin: 0;
+
+	font: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
+	line-height: 1.375;
+	appearance: none;
+	background-color: var(--background-color);
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m5 7.61 5 5 5-5' stroke='%23667085' stroke-width='1.667' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"),
+		linear-gradient(
+			to bottom,
+			var(--background-color) 0,
+			var(--background-color) 100%
+		);
+	background-repeat: no-repeat, repeat;
+	background-position: right 0.875rem top 50%, 0 0;
+	background-size: 1em auto, 100%;
+	border: 1px solid var(--border-color);
+	border-radius: 0.25rem;
+}
+
+.sidebar select:hover {
+	border-color: var(--border-color-hover);
+}

@@ -1,0 +1,126 @@
+/* contact.css */
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #edf1f4;
+}
+
+.auth-container.dark {
+  background-color: #1d2226;
+}
+
+.auth-form {
+  background-color: #edf1f4;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 45%;
+  min-height: 60%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form.dark {
+  background-color: #1d2226;
+  color: #edf1f4;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.auth-form .input-container {
+  margin-bottom: 1rem;
+}
+
+.auth-form .input-container input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 10px;
+  border: 2px solid #edf1f4;
+  border-radius: 4px;
+  background-color: #edf1f4;
+  color: #1d2226;
+}
+
+.auth-form.dark .input-container input {
+  background-color: #7a7878;
+  border-color: #dbdada;
+  color: #edf1f4;
+}
+
+.auth-form .input-container p.input-explanation {
+  text-align: left;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #666;
+}
+
+.auth-form.dark .input-container p.input-explanation {
+  color: #bbb;
+}
+
+.auth-form button {
+  background-color: #84d2ff;
+  color: #edf1f4;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-form button:hover {
+  background-color: #1d2226;
+}
+
+.auth-form.dark button {
+  background-color: #1d2226;
+}
+
+.auth-form.dark button:hover {
+  background-color: #84d2ff;
+}
+
+.auth-form.login {
+  width: 40%;
+  min-height: 50%;
+}
+
+.auth-form.signup {
+  min-height: 60%;
+}
+
+.auth-form .third-party-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.auth-form .third-party-button {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1d2226;
+  color: #edf1f4;
+  cursor: pointer;
+}
+
+.auth-form .third-party-button:hover {
+  background-color: #555;
+}
+
+.auth-form.dark .third-party-button {
+  background-color: #555;
+  color: #edf1f4;
+}
+
+.auth-form.dark .third-party-button:hover {
+  background-color: #777;
+}
